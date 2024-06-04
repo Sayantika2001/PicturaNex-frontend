@@ -1,0 +1,39 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    background: #fce3fe;
+    animation: fadeIn 3s;
+    
+}
+.about-left{
+    flex-basis: 40%;
+    position: relative;
+}
+.about-right{
+    flex-basis: 56%;
+}
+.about-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #212EAD;
+    text-align: center;
+    font-family: poppins;
+}
+.about h4{
+    font-size: 25px;
+    color: #000F38;
+    margin: 10px 0;
+    max-width: 400px;
+    font-family: poppins;
+}
+.about p{
+    color: black;
+    margin-bottom: 15px;
+}
