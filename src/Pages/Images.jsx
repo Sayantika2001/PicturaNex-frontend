@@ -17,10 +17,10 @@ const Images = () => {
       </Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item><Link to= "/Nature" className="btn btn-outline-secondary">Nature</Link></Dropdown.Item>
-        <Dropdown.Item><Link to= "/Nature" className="btn btn-outline-secondary">Flower</Link></Dropdown.Item>
-        <Dropdown.Item><Link to= "/Nature" className="btn btn-outline-secondary">Animal</Link></Dropdown.Item>
-        <Dropdown.Item><Link to= "/Nature" className="btn btn-outline-secondary"> Sea</Link></Dropdown.Item>
-        <Dropdown.Item><Link to= "/Nature" className="btn btn-outline-secondary">Children</Link></Dropdown.Item>
+        <Dropdown.Item><Link to= "/Flower" className="btn btn-outline-secondary">Flower</Link></Dropdown.Item>
+        <Dropdown.Item><Link to= "/Animal" className="btn btn-outline-secondary">Animal</Link></Dropdown.Item>
+        <Dropdown.Item><Link to= "/Sea" className="btn btn-outline-secondary"> Sea</Link></Dropdown.Item>
+        <Dropdown.Item><Link to= "/Children" className="btn btn-outline-secondary">Children</Link></Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
     </section>
