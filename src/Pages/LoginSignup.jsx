@@ -50,7 +50,7 @@ import { useNavigate } from 'react-router-dom';
 
         if(responseData.success){
             localStorage.setItem('auth-token', responseData.token);
-            window.location.replace('/');
+            window.location.replace('/LoginSignup');
         }
         else{
             alert(responseData.errors)
