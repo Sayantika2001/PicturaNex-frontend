@@ -1,23 +1,26 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     box-shadow: 0 1px 3px 2px rgb(0, 0, 0);
-    background: whitesmoke
-}
-.nav-logo{
+    background: whitesmoke;
+  }
+  
+  .nav-logo {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-.nav-logo p {
+  }
+  
+  .nav-logo p {
     color: black;
     font-size: 40px;
     font-weight: 600;
     font-style: italic;
     font-family: poppins;
-}
-.nav-menu{
+  }
+  
+  .nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
@@ -25,8 +28,9 @@
     color: #626262;
     font-size: 25px;
     font-weight: 500;
-}
-.nav-menu li{
+  }
+  
+  .nav-menu li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,13 +41,15 @@
     font-weight: 600;
     font-size: 30px;
     cursor: pointer;
-}
-.nav-login-cart{
+  }
+  
+  .nav-login-cart {
     display: flex;
     align-items: center;
     gap: 45px;
-}
-.nav-login-cart button{
+  }
+  
+  .nav-login-cart button {
     width: 150px;
     height: 58px;
     outline: none;
@@ -55,11 +61,13 @@
     background: white;
     font-family: poppins;
     cursor: pointer;
-}
-.nav-login-cart button:active{
+  }
+  
+  .nav-login-cart button:active {
     background: rgb(245, 245, 245);
-}
-.nav-cart-count{
+  }
+  
+  .nav-cart-count {
     width: 22px;
     height: 22px;
     display: flex;
@@ -69,11 +77,12 @@
     margin-left: -55px;
     border-radius: 11px;
     font-size: 14px;
-    background: red;
     color: white;
-}
-@media (max-width:800px){
-    .navbar{
-        padding: 15px 30px;
+  }
+  
+  @media (max-width: 800px) {
+    .navbar {
+      padding: 15px 30px;
     }
-}
+  }
+  
