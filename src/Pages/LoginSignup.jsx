@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './LoginSignup.css';
+import { useNavigate } from 'react-router-dom';
 //import { Link } from 'react-router-dom';
 
  const LoginSignup = () => {
@@ -10,6 +11,7 @@ import './LoginSignup.css';
         password: "",
         email: ""
     });
+    const Navigate = useNavigate();
     
     const changeHandler = (e) => {
         setFormData({...formData,[e.target.name]:e.target.value})
@@ -28,7 +30,7 @@ import './LoginSignup.css';
 
         if(responseData.success){
             localStorage.setItem('auth-token', responseData.token);
-            window.location.replace('/images');
+            Navigate('/images');
         }
         else{
             alert(responseData.errors)
