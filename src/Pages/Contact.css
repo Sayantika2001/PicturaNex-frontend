@@ -12,9 +12,10 @@
 .text-field hr{
     background: white;
     border: none;
-    width: 20%;
-    height: 3Px;
+    width: 100%;
+    height: 3px;
     border-radius: 15px;
+    
 }
 .contact-container{
     width: 580px;
