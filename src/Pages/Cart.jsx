@@ -67,7 +67,6 @@ const Cart = () => {
             </div>
             </div>
             <input type="submit" value= 'submit' className='submit-btn' />
-
         </form>
         </div>
     
